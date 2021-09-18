@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    font-size: 70px;
+    margin: 40px 40px 40px;
+}
+
+.button {
+    height: 150px;
+    width: 350px;
+    font-size: 80px;
+    margin-top: 60px;
+    font-family: "Gill Sans", sans-serif;
+    background-color: orange;
+    box-shadow: 9px 5px 5px black;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+}
